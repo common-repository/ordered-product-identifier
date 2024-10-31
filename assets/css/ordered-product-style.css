@@ -1,0 +1,188 @@
+/* .frm {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black -moz-use-text-color black black;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    margin-top: 2px;
+    padding: 10px;
+} */
+
+h3 {
+	margin-top: 2px;
+}
+
+.func {
+    border: 1px solid black;
+   
+} 
+
+/* .func {
+    border: 1px solid black;
+    float: right;
+    height: 212px;
+    margin-right: 28px;
+    margin-top: -234px;
+    padding: 10px;
+    width: 44%;
+} */
+
+.function {
+	font-size: 20px;
+}
+ .ced_opi_frm {
+    display: inline-block;
+    height: 255px;
+    vertical-align: top;
+    width: 48%;
+}
+.ced_opi_frm_wrp {
+    margin-top: 7px;
+}
+.ced_opi_frm_wrp .ced_opi_frm:nth-child(2) {
+    border-left: 1px solid #ccc;
+  }
+.ced_opi_frm_wrp {
+   
+    margin-top: 7px;
+}
+
+.ced_opi_frm {
+    border: 1px solid #cccccc;
+    display: inline-block;
+    height: 346px;
+    padding: 15px;
+    vertical-align: top;
+    width: 46.3%;
+}
+.unique-ID{
+margin-left:45px
+}
+@media only screen and (max-device-width: 768px) {
+	.ced_opi_frm {
+	  margin-bottom:25px;
+	    height: 490px;
+	   
+	    width: 87%;
+	}
+	.function {
+	    font-size: 16px;
+	}
+	
+	.ced_opi_frm_wrp .ced_opi_frm:nth-child(2) {
+	    border-left: 1px solid #ccc;
+	    height:240px;
+	}
+	.va{
+		width:190px!important;
+	}
+}
+.hide
+{
+    display: none;
+}
+.display{
+    display: block;
+}
+.ced_opi_img_email_image{
+    background-color: #fff;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 33px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+#ced_opi_loader {
+ background-color: rgba(255, 255, 255, 0.6);
+ bottom: 0;
+ height: 100%;
+ left: 0;
+ position: fixed;
+ right: 0;
+ top: 0;
+ width: 100%;
+ z-index: 99999;
+}
+#ced_opi_loader img {
+ display: block;
+ left: 0;
+ margin: 0 auto;
+ position: absolute;
+ right: 0;
+ top: 40%;
+}
+.ced_opi_img_email_field{
+    height: 41px;
+    width:25%;
+}
+#ced_opi_img_send_email{
+   padding:10px;
+    margin:10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 0;
+}   
+.ced_opi_email_image_success{
+    font-size: 16px;
+    color:green;
+ width:100%;
+}
+.ced_opi_email_image_error{
+    font-size: 16px;
+    color:red;
+ width:100%;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_banner a{
+    display: block;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_banner{
+    max-width: 1116px;
+    width: 100%;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_banner a img{
+    width: 100%;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content{
+    margin: 10px;
+    position: relative;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_cross_image_container{
+    position: absolute;
+    right: -17px;
+    top: -17px;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_cross_image_container .ced_opi_cross_image:after{
+    background-color: #fff;
+ content: "";
+ height: 2px;
+ left: 3px;
+ margin: 0 auto;
+ position: absolute;
+ top: 7px;
+ transform: rotate(44deg);
+ width: 10px;
+
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_cross_image_container .ced_opi_cross_image:before{
+    background-color: #fff;
+ content: "";
+ height: 2px;
+ left: 3px;
+ position: absolute;
+ top: 7px;
+ transform: rotate(138deg);
+ width: 10px;
+ z-index: 9999;
+}
+.ced_opi_img_email_image .ced_opi_email_main_content .ced_opi_cross_image_container .ced_opi_cross_image{
+     border-radius: 50%;
+    height: 15px;
+    width: 16px;
+    padding:0;
+} 
